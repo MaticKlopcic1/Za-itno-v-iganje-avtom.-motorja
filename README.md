@@ -14,7 +14,7 @@ M &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &
 
 Kosovnica: <br/>
 1x Arduino UNO,<br/>
-1x Breadboard,<br/><br/>
+1x Breadboard,<br/>
 12x Kabel,<br/>
 1x DC Motor,<br/>
 1x Stikalo,<br/>
