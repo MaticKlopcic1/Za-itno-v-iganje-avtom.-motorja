@@ -3,14 +3,14 @@ Navodilo naloge:
 
 Ko obrnemo ključ v desno, se sklene kontakt A, ki aktivira zaganjalnik. Pogoj za to pa je, da je vklopljeno skrivno stikalo B. zaganjalnika tudi ni mogoče pognati, če motor že teče, kar zazna senzor M.	
 
-Vhodi			
-Oznaka v načrtu	 Naslov operanda	Vrsta kontakta	                    Pomen<br/>
-A	               X0	        No	                                Prižig motorja
-B	               X1	        No	                                Varnostno stikalo
+Vhodi<br/>			
+Oznaka v načrtu &nbsp; Naslov operanda &nbsp; Vrsta kontakta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Pomen<br/>
+A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; X0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Prižig motorja <br/>
+B &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; X1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Varnostno stikalo <br/>
 			
-Izhodi			
-Oznaka v načrtu	 Naslov operanda	Aktiven pri	                        Pomen
-M	               Y0	        Pozitivnem signalu stikala A in B	  Motor
+Izhodi	<br/>		
+Oznaka v načrtu &nbsp; Naslov operanda &nbsp; Aktiven pri &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Pomen<br/>
+M &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Y0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Pozitivnem signalu stikala A in B &nbsp; &nbsp; &nbsp; Motor<br/>
 
 Kosovnica: <br/>
 1x Arduino UNO,<br/>
