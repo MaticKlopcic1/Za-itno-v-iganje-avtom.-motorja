@@ -27,4 +27,4 @@ Ko zavrtimo ključ A (tipka) se motor M (DC motor) vklopi, ampak samo če je pri
 Motor se lahko prižge s ključem A, samo če že ni prižgan. Motor se izkluči z ugasnitvijo stikala B. 
 
 Predlogi za izboljšanje naprave:
-Napravo bi lahko izboljšali z dodatnim stikalom/tipko, ki bi lahko delovala kot sklopka avta. Dodali bi pa še lahko stikalo, ki bi deloval kot menjava smeri vrtenja motorja (vzratna vožnja).
+Napravo bi lahko izboljšali z dodatnim stikalom/tipko, ki bi lahko delovala kot sklopka avta. Dodali bi pa še lahko stikalo, ki bi deloval kot menjava smeri vrtenja motorja (vzvratna vožnja).
