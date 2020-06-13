@@ -1,0 +1,22 @@
+int motor = 2;
+int kljuc = 10;
+int stikalo = 11;
+ 
+void setup(){
+pinMode(motor,OUTPUT);
+pinMode(kljuc,INPUT_PULLDOWN);
+pinMode(stikalo,INPUT_PULLUP);
+}
+
+void loop(){
+  if(digitalRead(kljuc)==LOW && digitalRead(stikalo)==LOW){
+    if(digitalRead(motor)==LOW){
+      digitalWrite(motor,HIGH);
+    }
+  }
+  if(digitalRead(motor)==HIGH){
+    if(digitalRead(stikalo)==HIGH){
+      digitalWrite(motor,LOW);
+    }
+  }
+}
