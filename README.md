@@ -4,22 +4,22 @@ Navodilo naloge:
 Ko obrnemo ključ v desno, se sklene kontakt A, ki aktivira zaganjalnik. Pogoj za to pa je, da je vklopljeno skrivno stikalo B. zaganjalnika tudi ni mogoče pognati, če motor že teče, kar zazna senzor M.	
 
 Vhodi			
-Oznaka v načrtu	 Naslov operanda	Vrsta kontakta	                    Pomen
-A	               X0	              No	                                Prižig motorja
-B	               X1	              No	                                Varnostno stikalo
+Oznaka v načrtu	 Naslov operanda	Vrsta kontakta	                    Pomen<br/>
+A	               X0	        No	                                Prižig motorja
+B	               X1	        No	                                Varnostno stikalo
 			
 Izhodi			
 Oznaka v načrtu	 Naslov operanda	Aktiven pri	                        Pomen
-M	               Y0	              Pozitivnem signalu stikala A in B	  Motor
+M	               Y0	        Pozitivnem signalu stikala A in B	  Motor
 
-Kosovnica: 
-1x Arduino UNO,
-1x Breadboard,
-12x Kabel,
-1x DC Motor,
-1x Stikalo,
-1x Upor, 
-1x Tipka.
+Kosovnica: <br/>
+1x Arduino UNO,<br/>
+1x Breadboard,<br/><br/>
+12x Kabel,<br/>
+1x DC Motor,<br/>
+1x Stikalo,<br/>
+1x Upor, <br/>
+1x Tipka.<br/>
 
 
 Komentar delovanja:
